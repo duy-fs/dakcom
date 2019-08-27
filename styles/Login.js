@@ -1,0 +1,82 @@
+import { StyleSheet, PixelRatio, Dimensions, Platform, StatusBar } from 'react-native';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
+
+export default StyleSheet.create({
+    Login:{
+        flex:1,
+        backgroundColor:'#F42535',
+        alignItems:'center'
+    },
+
+    Iconleft:{
+        paddingLeft:10,
+        flex:1,
+        fontSize:22,
+        color:'#ffffff',
+        position:'absolute',
+    },
+    LoginText:{
+        justifyContent:'center',
+        marginTop:20,
+        marginBottom:20,
+        height:45,
+        width:280,
+        backgroundColor:'#C41E2A',
+        borderRadius:25,
+    },
+    LoginText_a:{
+        fontWeight:'bold',
+        fontSize:18,
+        color:'#ffffff'
+    },
+    Login_Img:{
+        flex:3,
+        justifyContent:'center'
+    },
+    LoginPass:{
+        justifyContent:'center',
+        height:45,
+        width:280,
+        backgroundColor:'#C41E2A',
+        borderRadius:25,
+    },
+    LoginText_b:{
+        paddingLeft:95,
+        fontSize:16,
+    },
+    IconPhone:{
+        paddingLeft:20,
+        fontSize:25,
+        color:'#ffffff',
+        position:'absolute',
+    },
+    LoginText_c:{
+        paddingLeft:95,
+        fontSize:16,
+        
+    },
+    Button_a:{
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius:20,
+        height:45,
+        width:150,
+        backgroundColor:'#F42535'
+    },
+    LoginText_d:{
+        fontSize:16,
+        color:'#ffffff'
+    },
+    Button_b:{
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius:20,
+        height:45,
+        width:150,
+        backgroundColor:'#F42535'
+    },
+    LoginText_e:{
+        fontSize:16,
+        color:'#ffffff'
+    },
+})

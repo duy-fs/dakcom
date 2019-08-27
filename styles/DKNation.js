@@ -1,0 +1,100 @@
+import { StyleSheet, PixelRatio, Dimensions, Platform, StatusBar } from 'react-native';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
+const {width, height} = Dimensions.get('window');
+let screenWidth = Dimensions.get('window').width;
+
+export default StyleSheet.create({
+    DKNation:{
+        flex:1,
+        backgroundColor:'#F0F0F0'
+    },
+    Header_DKNation:{
+        alignItems:'center',
+    },
+    aHeader_DKNation:{
+        flex:2,
+        paddingTop:20,
+        position:'absolute',
+        zIndex:1,
+        flexDirection:'row',
+    },
+    Textheader_DKNation:{
+        color:'#ffffff',
+        fontWeight:'bold',
+        fontSize:18,
+    },
+    IconLeft_DKNation:{
+        flex:1,
+        paddingLeft:10,
+        fontSize:22,
+        color:'#ffffff'
+    },
+    Container_DKNation:{
+        alignItems:'center',
+        backgroundColor:'#F0F0F0'
+    },
+    Text_DKNation:{
+        justifyContent:'center',
+        flex:1
+    },
+    aText_DKNation:{
+        fontWeight:'bold',
+        color:'#111111',
+        fontSize:16,
+    },
+    Import_DKNation:{
+        paddingTop:10,
+        flex:2
+    },
+    aImport_DKNation:{
+        flexDirection:'row',
+        marginBottom:20,
+        fontSize:16,
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#ffffff',
+        height:45,
+        width:280,
+        borderRadius:25,
+    },
+    aTextImport_DKNation:{
+        paddingLeft:60,
+        paddingRight:45,
+        fontSize:16,
+        color:'#111111'
+    },
+    bTextImport_DKNation:{
+        paddingLeft:70,
+        paddingRight:60,
+        fontSize:16,
+        color:'#111111'
+    },
+    IconButton_DKNation:{
+        color:'#111111',
+        fontSize:16
+    },
+    IconGlobe_DKNation:{
+        fontSize:18,
+        color:'#F42535'
+    },
+    IconCity_DKNation:{
+        fontSize:18,
+        color:'#F42535'
+    },
+    Button_DKNation:{
+        justifyContent:'center',
+        alignItems:'center',
+        height:45,
+        width:150,
+        borderRadius:20,
+        backgroundColor:'#F42535'
+    },
+    TextButton_DKNation:{
+        fontSize:16,
+        color:'#ffffff'
+    },
+    Img_DKNation:{
+        width: width,
+        height: width*429/720
+    },
+})

@@ -1,0 +1,101 @@
+import { StyleSheet, PixelRatio, Dimensions, Platform, StatusBar } from 'react-native';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
+const {width, height} = Dimensions.get('window');
+let screenWidth = Dimensions.get('window').width;
+
+export default StyleSheet.create({
+    Experience:{
+        flex:1,
+        backgroundColor:'#F0F0F0'
+    },
+    Header_Experience:{
+        alignItems:'center',
+    },
+    aHeader_Experience:{
+        flex:3,
+        paddingTop:20,
+        position:'absolute',
+        zIndex:1,
+        flexDirection:'row',
+    },
+    Textheader_Experience:{
+        color:'#ffffff',
+        fontWeight:'bold',
+        fontSize:18,
+    },
+    IconLeft_Experience:{
+        flex:1,
+        paddingLeft:10,
+        fontSize:22,
+        color:'#ffffff'
+    },
+    Container_Experience:{
+        alignItems:'center',
+        backgroundColor:'#F0F0F0'
+    },
+    Text_Experience:{
+        alignItems:'center',
+        flex:2,
+        justifyContent:'center'
+    },
+    aText_Experience:{
+        paddingBottom:10,
+        fontWeight:'bold',
+        color:'#111111',
+        fontSize:16,
+    },
+    bText_Experience:{
+        color:'#111111',
+        fontSize:14,
+    },
+    Import_Experience:{
+        paddingTop:10,
+        flex:2
+    },
+    aImport_Experience:{
+        marginBottom:20,
+        fontSize:16,
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#ffffff',
+        height:45,
+        width:280,
+        borderRadius:25,
+    },
+    bImport_Experience:{
+        fontSize:16,
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#ffffff',
+        height:45,
+        width:280,
+        borderRadius:25,
+    },
+    TextImport_Experience:{
+        paddingLeft:60,
+        paddingRight:45,
+        fontSize:16,
+        color:'#111111'
+    },
+    IconButton_Experience:{
+        color:'#111111',
+        fontSize:16
+    },
+    Button_Experience:{
+        marginTop:20,
+        justifyContent:'center',
+        alignItems:'center',
+        height:45,
+        width:150,
+        borderRadius:20,
+        backgroundColor:'#F42535'
+    },
+    TextButton_Experience:{
+        fontSize:16,
+        color:'#ffffff'
+    },
+    Img_Experience:{
+        width: width,
+        height: width*429/720
+    },
+})

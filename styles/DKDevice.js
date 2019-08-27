@@ -1,0 +1,94 @@
+import { StyleSheet, PixelRatio, Dimensions, Platform, StatusBar } from 'react-native';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
+const {width, height} = Dimensions.get('window');
+let screenWidth = Dimensions.get('window').width;
+
+export default StyleSheet.create({
+    DKDevice:{
+        flex:1,
+        backgroundColor:'#F0F0F0'
+    },
+    Header_DKDevice:{
+        alignItems:'center',
+    },
+    aHeader_DKDevice:{
+        flex:2,
+        paddingTop:20,
+        position:'absolute',
+        zIndex:1,
+        flexDirection:'row',
+    },
+    Textheader_DKDevice:{
+        color:'#ffffff',
+        fontWeight:'bold',
+        fontSize:18,
+    },
+    IconLeft_DKDevice:{
+        flex:1,
+        paddingLeft:10,
+        fontSize:22,
+        color:'#ffffff'
+    },
+    Container_DKDevice:{
+        alignItems:'center',
+        backgroundColor:'#F0F0F0'
+    },
+    Text_DKDevice:{
+        alignItems:'center',
+        flex:1,
+    },
+    aText_DKDevice:{
+        fontWeight:'bold',
+        color:'#111111',
+        fontSize:16,
+    },
+    Import_DKDevice:{
+        flex:5
+    },
+    aImport_DKDevice:{
+        marginBottom:20,
+        fontSize:16,
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#ffffff',
+        height:45,
+        width:280,
+        borderRadius:25,
+    },
+    bImport_DKDevice:{
+        fontSize:16,
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#ffffff',
+        height:180,
+        width:280,
+        borderRadius:25,
+    },
+    Icon_camera:{
+        color:'#FF7D87',
+        fontSize:35,
+        paddingTop:10
+    },
+    TextImport_DKDevice:{
+        paddingLeft:60,
+        paddingRight:45,
+        fontSize:16,
+        color:'#111111'
+    },
+    Button_DKDevice:{
+        justifyContent:'center',
+        alignItems:'center',
+        height:45,
+        width:150,
+        borderRadius:20,
+        backgroundColor:'#F42535'
+    },
+    TextButton_DKDevice:{
+        fontSize:16,
+        color:'#ffffff'
+    },
+    Img_DKDevice:{
+        width: width,
+        height: width*429/720
+    },
+})
